@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri:  http://192.168.20.183/root/configure.git
+          uri: git경로를 사용하세요.
     bus:
       enabled: true
   rabbitmq:
