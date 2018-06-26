@@ -2,7 +2,7 @@
 
 Spring Cloud Bus 는 분산 시스템에 존재하는 노드들을 경량 메시지 브로커(rabbitmq, kafka etc)와 연결하는 역할을 합니다.
 
-구성 변경과 같은 상태변경, 긴타관리 등을 브로드캐스트하는데 사용이 가능합니다.
+구성 변경과 같은 상태변경, 기타 관리 등을 브로드캐스트하는데 사용이 가능합니다.
 
 현재 AMQP 브로커를 전송으로 사용하지만 Kafka, Redis도 사용 할 수 있습니다. 그 외의 전송은 아직 지원되지 않습니다.
 
@@ -31,8 +31,8 @@ $ curl -x POST http://[ip]:[port]/refresh
 (해당 프로젝트는 spring-boot-starter-parent:2.0.2.RELEASE를 사용합니다.)
 ~~~xml
 <dependency>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-web</artifactId>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 ~~~
 
