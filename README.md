@@ -345,8 +345,8 @@ spring:
 </dependency>
 
 <dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-bus-amqp</artifactId>
 </dependency>
 ~~~
 
