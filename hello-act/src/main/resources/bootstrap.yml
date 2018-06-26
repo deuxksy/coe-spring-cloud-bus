@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: hello-act
+  cloud:
+    config:
+      uri: http://localhost:8091
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
