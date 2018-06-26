@@ -113,7 +113,7 @@ act
 </dependencies>
 ~~~
 
-해당 어플리케이션이 config-server임을 알리기 위해서 @EnablieConfigServer 어노테이션을 추가합니다.
+해당 어플리케이션이 config-server임을 알리기 위해서 @EnableConfigServer 어노테이션을 추가합니다.
 ~~~java
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
